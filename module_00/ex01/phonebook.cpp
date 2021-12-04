@@ -24,6 +24,7 @@ void Phonebook::show_phonebook() {
 	const char *index;
 	if (size_of_phonebook == 0) {
 		std::cout << "Phonebook is empty!" << std::endl;
+		return;
 	}
     std::cout   << std::setw(10) << "Index" << " | "
                 << std::setw(10) << "First name" << " | "
