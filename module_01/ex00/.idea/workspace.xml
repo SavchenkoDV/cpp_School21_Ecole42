@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="ex00" targetName="ex00" />
+    </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="040d4d61-c830-4310-bcd5-72be4e1b8159" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.MD" beforeDir="false" />
+    <list default="true" id="836d606d-b2ea-44be-9058-03a0ecdd1165" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Zombie.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zombie.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_00/ex02/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_00/ex02/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +25,19 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="21pS8CKLIMl0D1pIqTPajgids15" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectId" id="21rzAsHlBOGUSrEzcbeVcK3P6nw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,22 +58,21 @@
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="040d4d61-c830-4310-bcd5-72be4e1b8159" name="Changes" comment="" />
-      <created>1638636373158</created>
+      <changelist id="836d606d-b2ea-44be-9058-03a0ecdd1165" name="Changes" comment="" />
+      <created>1638713855706</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1638636373158</updated>
-      <workItem from="1638636375408" duration="14000" />
-      <workItem from="1638636391907" duration="620000" />
+      <updated>1638713855706</updated>
+      <workItem from="1638713865519" duration="4174000" />
     </task>
     <servers />
   </component>
