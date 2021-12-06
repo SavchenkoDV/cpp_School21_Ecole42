@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_01/ex00/Zombie.hpp
+iostream
+-
+
+/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_01/ex00/main.cpp
+Zombie.hpp
+/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_01/ex00/Zombie.hpp
+
+/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_01/ex00/randomChump.cpp
+Zombie.hpp
+/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_01/ex00/Zombie.hpp
+
