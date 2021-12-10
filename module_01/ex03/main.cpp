@@ -1,13 +1,21 @@
-#include "Weapon.hpp"
+//#include "Weapon.hpp"
+#include "HumanA.hpp"
 
-int main() {
-    Weapon weapon = Weapon();
-    std::cout << weapon.getType() << std::endl;
-    weapon.setType("glock");
-    std::cout << weapon.getType() << std::endl;
-    weapon.setType("glock1");
-    std::string test = weapon.getType();
-    test = "dima";
-    std::cout << test << std::endl;
-    return 0;
+int main()
+{
+	{
+		Weapon club = Weapon("crude spiked club");
+		HumanA bob("Bob", club);
+		bob.attack();
+		club.setType("steel club");
+		bob.attack();
+	}
+	{
+//		Weapon club = Weapon("crude spiked club");
+//		HumanB jim("Jim");
+//		jim.setWeapon(club);
+//		jim.attack();
+//		club.setType("steel club");
+//		jim.attack();
+	}
 }

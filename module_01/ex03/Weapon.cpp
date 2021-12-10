@@ -6,13 +6,16 @@ Weapon::Weapon() {
 }
 
 Weapon::~Weapon() {
-    std::cout << "Weapon destructor" << std::endl;
+	std::cout << "Weapon destructor" << std::endl;
 }
 
-void Weapon::setType(std::string type) {
+Weapon::Weapon(const std::string& type) {
+	weapons_type = type;
+	std::cout << "Weapon constructor with parameter" << std::endl;
+}
+
+void Weapon::setType(const std::string& type) {
     weapons_type = type;
 }
 
-std::string const &Weapon::getType() {
-    return weapons_type;
-}
+const std::string& Weapon::getType() { return weapons_type; }

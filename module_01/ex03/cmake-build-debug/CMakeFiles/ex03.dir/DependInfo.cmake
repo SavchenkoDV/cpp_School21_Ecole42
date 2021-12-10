@@ -1,16 +1,16 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_01/ex03/Weapon.cpp" "/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_01/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Weapon.cpp.o"
-  "/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_01/ex03/main.cpp" "/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_01/ex03/cmake-build-debug/CMakeFiles/ex03.dir/main.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/buthor/Desktop/cpp_School21_Ecole42/module_01/ex03/HumanA.cpp" "CMakeFiles/ex03.dir/HumanA.cpp.o" "gcc" "CMakeFiles/ex03.dir/HumanA.cpp.o.d"
+  "/Users/buthor/Desktop/cpp_School21_Ecole42/module_01/ex03/Weapon.cpp" "CMakeFiles/ex03.dir/Weapon.cpp.o" "gcc" "CMakeFiles/ex03.dir/Weapon.cpp.o.d"
+  "/Users/buthor/Desktop/cpp_School21_Ecole42/module_01/ex03/main.cpp" "CMakeFiles/ex03.dir/main.cpp.o" "gcc" "CMakeFiles/ex03.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
