@@ -3,15 +3,13 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
-  <component name="CMakeSettings" AUTO_RELOAD="true">
+  <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b6ffbcf-6860-4768-8274-1441bf87799e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ex00/Zombie.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex00/Zombie.hpp" afterDir="false" />
-    </list>
+    <list default="true" id="d6f5ce61-21cb-46ce-800d-9a7a2ab67371" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,15 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="21xRPRFV2gObzj1EgcbOPG6CgI6" />
+  <component name="ProjectId" id="222aVx2gbkykiX8aU7kgyzNy7AA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,27 +52,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6b6ffbcf-6860-4768-8274-1441bf87799e" name="Default Changelist" comment="" />
-      <created>1638880728518</created>
+      <changelist id="d6f5ce61-21cb-46ce-800d-9a7a2ab67371" name="Default Changelist" comment="" />
+      <created>1639038163750</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1638880728518</updated>
-      <workItem from="1638880731414" duration="8558000" />
+      <updated>1639038163750</updated>
+      <workItem from="1639038166274" duration="1937000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ZombieHorde.cpp</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
