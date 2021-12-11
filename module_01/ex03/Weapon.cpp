@@ -1,21 +1,11 @@
 #include "Weapon.hpp"
 
-Weapon::Weapon() {
-    weapons_type = "none";
-    std::cout << "Weapon constructor" << std::endl;
-}
+Weapon::Weapon() { weapons_type = "none"; }
 
-Weapon::~Weapon() {
-	std::cout << "Weapon destructor" << std::endl;
-}
+Weapon::~Weapon() { }
 
-Weapon::Weapon(const std::string& type) {
-	weapons_type = type;
-	std::cout << "Weapon constructor with parameter" << std::endl;
-}
+Weapon::Weapon(std::string type) { weapons_type = type; }
 
-void Weapon::setType(const std::string& type) {
-    weapons_type = type;
-}
+void Weapon::setType(const std::string& type) { weapons_type = type; }
 
 const std::string& Weapon::getType() { return weapons_type; }
