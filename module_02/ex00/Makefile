@@ -1,7 +1,7 @@
 CL		=	clang++
 CFLAGS	= 	-Werror -Wall -Wextra -std=c++98
-NAME	=	karen
-SRC		=	main.cpp Karen.cpp
+NAME	=	fixed
+SRC		=	main.cpp Fixed.cpp
 OBJECT  =	$(SRC:.cpp=.o)
 
 all:		$(NAME)
