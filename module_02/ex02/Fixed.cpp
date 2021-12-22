@@ -59,7 +59,7 @@ bool Fixed::operator!=(const Fixed &overload) const {
 }
 
 Fixed Fixed::operator+(const Fixed &overload) const {
-	Fixed temp;
+    Fixed temp;
 	temp.value = value + overload.value;
 	return temp;
 }
@@ -71,22 +71,18 @@ Fixed Fixed::operator-(const Fixed &overload) const {
 }
 
 Fixed Fixed::operator*(const Fixed &overload) const {
-//	float number1;
-//	number1 = static_cast<float>(value) / (1 << bits);
-//	std::cout << number1 << std::endl;
-//	float number2;
-//	number2 = static_cast<float>(overload.value) / (1 << bits);
-//	std::cout << number2 << std::endl;
-//	int number3 = number1 * number2;
-//	std::cout << number3 << std::endl;
-//
-//
-//
-//	//return number;
-	float num = this->toFloat() * overload.toFloat();
-	std::cout << this->toFloat() << std::endl;
-	//Fixed new_one(num);
-	return num;
+    Fixed tmp;
+    long product = (value * overload.value);
+    tmp.value = static_cast<int>(product >> bits);
+    return tmp;
+}
+
+Fixed Fixed::operator/(const Fixed &overload) const {
+    Fixed tmp;
+    long dividend = value << bits;
+    long divisor = overload.value;
+    tmp.value = static_cast<int>(dividend / divisor);
+    return tmp;
 }
 
 
@@ -120,5 +116,28 @@ int Fixed::toInt(void) const {
 	number = value / (1 << bits);
 	return number;
 }
+
+Fixed &Fixed::operator++() {
+    ++value;
+    return *this;
+}
+
+Fixed Fixed::operator++(int) {
+    Fixed tmp(*this);
+    value++;
+    return tmp;
+}
+
+Fixed &Fixed::operator--() {
+    --value;
+    return *this;
+}
+
+Fixed Fixed::operator--(int) {
+    Fixed tmp(*this);
+    value--;
+    return tmp;
+}
+
 
 

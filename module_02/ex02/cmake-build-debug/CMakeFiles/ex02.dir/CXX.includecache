@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/Fixed.cpp
+Fixed.hpp
+/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/Fixed.hpp
+
+/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/Fixed.hpp
+iostream
+-
+cmath
+-
+

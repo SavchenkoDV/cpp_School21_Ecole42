@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ex02"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex02">
+				<Option output="/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/ex02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex02/fast">
+				<Option output="/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/ex02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/Fixed.cpp">
+			<Option target="ex02"/>
+		</Unit>
+		<Unit filename="/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/Fixed.hpp">
+			<Option target="ex02"/>
+		</Unit>
+		<Unit filename="/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/main.cpp">
+			<Option target="ex02"/>
+		</Unit>
+		<Unit filename="/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

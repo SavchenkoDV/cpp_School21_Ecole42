@@ -23,6 +23,11 @@ public:
 	Fixed operator+( Fixed const &overload ) const;
 	Fixed operator-( Fixed const &overload ) const;
 	Fixed operator*( Fixed const &overload ) const;
+    Fixed operator/( Fixed const &overload ) const;
+    Fixed &operator++();
+    Fixed operator++(int);
+    Fixed &operator--();
+    Fixed operator--(int);
 
 	int toInt( void ) const;
 	float toFloat( void ) const;

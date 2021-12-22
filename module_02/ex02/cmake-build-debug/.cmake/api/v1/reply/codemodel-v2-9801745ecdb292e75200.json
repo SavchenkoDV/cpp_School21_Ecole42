@@ -6,10 +6,9 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.21"
+						"string" : "3.19.2"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ex02::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ex02-Debug-bd0a87d6d32df4c89cb1.json",
+					"jsonFile" : "target-ex02-Debug-af39a98d6b0fc0f218eb.json",
 					"name" : "ex02",
 					"projectIndex" : 0
 				}
@@ -49,12 +48,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/buthor/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug",
-		"source" : "/Users/buthor/Desktop/cpp_School21_Ecole42/module_02/ex02"
+		"build" : "/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02/cmake-build-debug",
+		"source" : "/Users/dvsavchenko/Desktop/cpp_School21_Ecole42/module_02/ex02"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 2
 	}
 }
