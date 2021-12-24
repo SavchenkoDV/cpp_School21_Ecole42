@@ -139,5 +139,22 @@ Fixed Fixed::operator--(int) {
     return tmp;
 }
 
+Fixed &Fixed::min(Fixed &fix_1, Fixed &fix_2) {
+	return ((fix_1 < fix_2) ? fix_1 : fix_2);
+}
+
+Fixed &Fixed::max(Fixed &fix_1, Fixed &fix_2) {
+	return ((fix_1 > fix_2) ? fix_1 : fix_2);
+}
+
+const Fixed &Fixed::min(const Fixed &fix_1, const Fixed &fix_2) {
+	return ((fix_1 < fix_2) ? fix_1 : fix_2);
+}
+
+const Fixed &Fixed::max(const Fixed &fix_1, const Fixed &fix_2) {
+	return ((fix_1 > fix_2) ? fix_1 : fix_2);
+}
+
+
 
 

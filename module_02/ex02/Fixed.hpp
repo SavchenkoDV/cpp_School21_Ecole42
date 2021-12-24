@@ -28,6 +28,11 @@ public:
     Fixed operator++(int);
     Fixed &operator--();
     Fixed operator--(int);
+	static Fixed &min(Fixed &fix_1, Fixed &fix_2);
+	static Fixed &max(Fixed &fix_1, Fixed &fix_2);
+	static const Fixed &min(const Fixed &fix_1, const Fixed &fix_2);
+	static const Fixed &max(const Fixed &fix_1, const Fixed &fix_2);
+
 
 	int toInt( void ) const;
 	float toFloat( void ) const;
