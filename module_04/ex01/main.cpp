@@ -3,14 +3,18 @@
 #include "Cat.hpp"
 
 int main() {
+
 	const Animal* j = new Dog();
 	const Animal* i = new Cat();
 	delete j;
 	delete i;
 
-	Cat a;
-	Cat b;
-	b = a;
+	Dog basic;
+	{
+		std::cout << "------------------" << std::endl;
+		Dog tmp = basic;
+		std::cout << "------------------" << std::endl;
+	}
 
 	Animal *array[10];
 	for (int x = 0; x < 10; x++) {
