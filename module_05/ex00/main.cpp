@@ -23,7 +23,7 @@ int main() {
 	Bureaucrat Third(First);
 	std::cout << "Third copy of first:      " << Third << std::endl;
 	Third = Second;
-	std::cout << "Third overload of first:  " << Third << std::endl;
+	std::cout << "Third overload of Second:  " << Third << std::endl;
 
 	std::cout << "\n*NO EXCEPTION*" << std::endl;
 	try
