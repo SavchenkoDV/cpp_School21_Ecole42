@@ -48,7 +48,18 @@ void Bureaucrat::signForm(Form& form) {
 	catch (std::exception &e)
 	{
 		std::cout << _name << " cannot sign " << form.getName() << " because has low lvl" << std::endl;
+		std::cout << e.what() << std::endl;
+	}
+}
 
+void Bureaucrat::executeForm(Form const & form) {
+	try {
+		form.execute(*this);
+		std::cout << _name << " execute " << form.getName() << std::endl;
+	}
+	catch (std::exception &e)
+	{
+		std::cout << _name << " cannot execute " << form.getName() << " because has low lvl" << std::endl;
 		std::cout << e.what() << std::endl;
 	}
 }

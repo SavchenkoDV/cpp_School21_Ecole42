@@ -1,7 +1,7 @@
 CL		=	clang++
 CFLAGS	= 	-Werror -Wall -Wextra -std=c++98
 NAME	=	bureaucrat
-SRC		=	main.cpp Bureaucrat.cpp Form.cpp ShrubberyCreationForm.cpp
+SRC		=	main.cpp Bureaucrat.cpp Form.cpp RobotomyRequestForm.cpp ShrubberyCreationForm.cpp PresidentialPardonForm.cpp
 OBJECT  =	$(SRC:.cpp=.o)
 
 all:		$(NAME)

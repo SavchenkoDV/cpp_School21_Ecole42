@@ -17,11 +17,13 @@ public:
 	Form& operator=(const Form& overload);
 	class GradeTooHighException : public std::exception { };
 	class GradeTooLowException : public std::exception { };
+	class isNotSign : public std::exception { };
 	std::string getName() const;
 	bool getSign() const;
 	int getGradeToSign() const;
 	int getGradeToExecute() const;
 	void beSigned(Bureaucrat& object);
+	virtual void execute(Bureaucrat const & executor) const = 0;
 
 private:
 	const std::string _name;

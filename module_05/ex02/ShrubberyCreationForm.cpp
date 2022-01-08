@@ -7,7 +7,8 @@ ShrubberyCreationForm::~ShrubberyCreationForm() { }
 ShrubberyCreationForm::ShrubberyCreationForm(const ShrubberyCreationForm &copy) : Form(copy) { }
 
 ShrubberyCreationForm::ShrubberyCreationForm(const std::string &target)
-									: Form(target, 137, 145) { }
+					: Form(target, 145, 137) {
+}
 
 ShrubberyCreationForm& ShrubberyCreationForm::operator=(const ShrubberyCreationForm &overloads) {
 	if (this == &overloads) { return *this; }
@@ -16,11 +17,12 @@ ShrubberyCreationForm& ShrubberyCreationForm::operator=(const ShrubberyCreationF
 }
 
 void ShrubberyCreationForm::execute(const Bureaucrat &executor) const {
-//	if (executor.getGrade() > this->getGradeToExecute()) { throw GradeTooLowException(); }
-//	if ()
-//	{
-//		throw FormIsNotSigned();
-//	}
+	if (!getSign()) {
+		throw isNotSign();
+	}
+	if (executor.getGrade() > getGradeToExecute()) {
+		throw GradeTooLowException();
+	}
 	std::ofstream fd(getName() + "_shrubbery");
 	fd	<< "__*_________*_________*_" << std::endl
 		<< "______*____*o*____*_____" << std::endl

@@ -22,6 +22,7 @@ public:
 	class GradeTooHighException : public std::exception { };
 	class GradeTooLowException : public std::exception { };
 	void signForm(Form& form);
+	void executeForm(Form const& form);
 
 private:
 	const std::string _name;
